@@ -5,150 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9630872-2d41-44e9-9e65-d332928519bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/app.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/awt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/fontmanager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/freetype.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/java.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/java.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/javajpeg.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/javaw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/jawt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/jimage.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/jli.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/jrunscript.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/jsound.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/keytool.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/lcms.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/mlib_image.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/msvcp140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/net.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/nio.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/prefs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/server/jvm.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/splashscreen.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/syslookup.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/ucrtbase.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/vcruntime140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/vcruntime140_1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/verify.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bin/zip.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/net.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/java.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/java.security" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/policy/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/policy/limited/default_US_export.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/policy/limited/default_local.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/policy/limited/exempt_local.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/policy/unlimited/default_US_export.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/security/policy/unlimited/default_local.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/conf/sound.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/aes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/asm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/c-libutl.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/cldr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/icu.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/public_suffix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/unicode.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/wepoll.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.base/zlib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.datatransfer/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.datatransfer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/colorimaging.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/freetype.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/giflib.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/harfbuzz.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/jpeg.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/lcms.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/libpng.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.desktop/mesa3d.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.logging/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.logging/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.prefs/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.prefs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.scripting/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.scripting/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/bcel.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/dom.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/jcup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/xalan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/java.xml/xerces.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/jdk.unsupported/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/legal/jdk.unsupported/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/classlist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/fontconfig.bfc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/fontconfig.properties.src" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/jawt.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/jrt-fs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/jvm.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/jvm.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/modules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/psfont.properties.ja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/psfontj2d.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/security/blocked.certs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/security/cacerts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/security/default.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/security/public_suffix_list.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/tzdb.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/tzmappings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vg.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/services/RandomizerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/services/RandomizerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ru/grinchick/randomizer/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru/grinchick/randomizer/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,20 +34,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/cothn/RepositHub/randomizer/src/main/resources/ru/grinchick/randomizer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/ru/grinchick/randomizer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+      <command value="mvn package" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.grinchick.randomizer.HelloApplication" />
