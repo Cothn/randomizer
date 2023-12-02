@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="509.0" prefWidth="1062.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.grinchick.randomizer.RandomizerController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <HBox alignment="TOP_CENTER" prefHeight="469.0" prefWidth="972.0">
+        <children>
+            <VBox prefHeight="469.0" prefWidth="594.0" spacing="15.0">
+                <children>
+                    <Label text="Первый диапазон:">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" spacing="15.0">
+                        <children>
+                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
+                                <children>
+                                    <Label text="Минимум" />
+                                    <TextField fx:id="min_1" />
+                                </children>
+                            </HBox>
+                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
+                                <children>
+                                    <Label text="Максимум" />
+                                    <TextField fx:id="max_1" />
+                                </children>
+                            </HBox>
+                        </children>
+                        <opaqueInsets>
+                            <Insets />
+                        </opaqueInsets>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" spacing="25.0">
+                        <children>
+                            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="358.0" spacing="10.0">
+                                <children>
+                                    <Label prefHeight="16.0" prefWidth="167.0" text="Количество значений" />
+                                    <TextField fx:id="quantity_1" text="0" />
+                                </children>
+                            </HBox>
+                        </children>
+                        <opaqueInsets>
+                            <Insets />
+                        </opaqueInsets>
+                    </HBox>
+                    <Label text="Второй диапазон:">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" spacing="15.0">
+                        <children>
+                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
+                                <children>
+                                    <Label text="Минимум" />
+                                    <TextField fx:id="min_2" />
+                                </children>
+                            </HBox>
+                            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
+                                <children>
+                                    <Label text="Максимум" />
+                                    <TextField fx:id="max_2" />
+                                </children>
+                            </HBox>
+                        </children>
+                        <opaqueInsets>
+                            <Insets />
+                        </opaqueInsets>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" spacing="25.0">
+                        <children>
+                            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="358.0" spacing="10.0">
+                                <children>
+                                    <Label prefHeight="16.0" prefWidth="167.0" text="Количество значений" />
+                                    <TextField fx:id="quantity_2" text="0" />
+                                </children>
+                            </HBox>
+                        </children>
+                        <opaqueInsets>
+                            <Insets />
+                        </opaqueInsets>
+                    </HBox>
+                    <Label prefHeight="21.0" prefWidth="446.0" text="Распределение значений, между диапазонами:">
+                        <font>
+                            <Font size="17.0" />
+                        </font>
+                    </Label>
+                    <Slider fx:id="distribution" prefHeight="38.0" showTickLabels="true" showTickMarks="true" />
+                    <Button onAction="#onRandomizeButtonClick" prefWidth="594.0" text="Получить значения" />
+                </children>
+                <HBox.margin>
+                    <Insets right="5.0" />
+                </HBox.margin>
+            </VBox>
+         <ListView fx:id="listAll" prefHeight="469.0" prefWidth="200.0" />
+         <ListView fx:id="list_1" prefHeight="200.0" prefWidth="200.0" />
+         <ListView fx:id="list_2" prefHeight="469.0" prefWidth="200.0" />
+        </children>
+    </HBox>
+</VBox>
