@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9630872-2d41-44e9-9e65-d332928519bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ru/grinchick/randomizer/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru/grinchick/randomizer/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <updated>1701528932043</updated>
       <workItem from="1701528933083" duration="2559000" />
       <workItem from="1701531722852" duration="7340000" />
-      <workItem from="1701539072162" duration="529000" />
+      <workItem from="1701539072162" duration="4382000" />
     </task>
     <servers />
   </component>
@@ -89,8 +87,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java</url>
-          <line>54</line>
+          <line>57</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/grinchick/randomizer/RandomizerController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

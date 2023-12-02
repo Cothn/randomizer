@@ -42,7 +42,7 @@
                             <HBox alignment="CENTER" prefHeight="50.0" prefWidth="358.0" spacing="10.0">
                                 <children>
                                     <Label prefHeight="16.0" prefWidth="167.0" text="Количество значений" />
-                                    <TextField fx:id="quantity_1" text="1" />
+                                    <TextField fx:id="quantity_1" onKeyReleased="#onDiapazonQuantityChanged" onMouseExited="#onDiapazonQuantityChanged" text="1" />
                                 </children>
                             </HBox>
                         </children>
@@ -79,7 +79,7 @@
                             <HBox alignment="CENTER" prefHeight="50.0" prefWidth="358.0" spacing="10.0">
                                 <children>
                                     <Label prefHeight="16.0" prefWidth="167.0" text="Количество значений" />
-                                    <TextField fx:id="quantity_2" text="0" />
+                                    <TextField fx:id="quantity_2" onKeyReleased="#onDiapazonQuantityChanged" text="0" />
                                 </children>
                             </HBox>
                         </children>
@@ -87,13 +87,19 @@
                             <Insets />
                         </opaqueInsets>
                     </HBox>
-               <Label text="* Максимальное значение, не включается в диапазон." />
+                    <Label text="* Максимальное значение, не включается в диапазон." />
+                    <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="358.0" spacing="10.0">
+                        <children>
+                            <Label prefHeight="16.0" prefWidth="244.0" text="Общее количество значений" />
+                            <TextField fx:id="quantity_all" onKeyReleased="#onDistributionChanged" onMouseExited="#onDistributionChanged" text="1" />
+                        </children>
+                    </HBox>
                     <Label prefHeight="21.0" prefWidth="446.0" text="Распределение значений, между диапазонами:">
                         <font>
                             <Font size="17.0" />
                         </font>
                     </Label>
-                    <Slider fx:id="distribution" prefHeight="38.0" showTickLabels="true" showTickMarks="true" />
+                    <Slider fx:id="distribution" onDragDone="#onDistributionChanged" onInputMethodTextChanged="#onDistributionChanged" onMouseDragged="#onDistributionChanged" prefHeight="38.0" showTickLabels="true" showTickMarks="true" value="100.0" />
                     <Button onAction="#onRandomizeButtonClick" prefWidth="594.0" text="Получить значения" />
                 </children>
                 <HBox.margin>

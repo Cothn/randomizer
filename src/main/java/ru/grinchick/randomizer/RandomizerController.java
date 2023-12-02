@@ -31,6 +31,9 @@ public class RandomizerController {
     private TextField  quantity_2;
 
     @FXML
+    private TextField  quantity_all;
+
+    @FXML
     private Slider distribution;
 
     @FXML
@@ -61,5 +64,18 @@ public class RandomizerController {
         finalSequence.forEach(el -> listAll.appendText(el + "\r\n"));
         sequence_1.forEach(el ->  list_1.appendText(el + "\r\n"));
         sequence_2.forEach(el ->  list_2.appendText(el + "\r\n"));
+    }
+
+    @FXML
+    protected void onDistributionChanged() {
+        quantity_1.setText(String.valueOf((long)((Long.parseLong(quantity_all.getText()) / 100) * distribution.getValue())));
+        quantity_2.setText(String.valueOf(Long.parseLong(quantity_all.getText()) - Long.parseLong(quantity_1.getText())));
+    }
+
+    @FXML
+    protected void onDiapazonQuantityChanged() {
+        quantity_all.setText(String.valueOf(Long.parseLong(quantity_1.getText()) + Long.parseLong(quantity_2.getText())));
+        double distributionPercent = ((double) Long.parseLong(quantity_1.getText()) / Long.parseLong(quantity_all.getText())) * 100;
+        distribution.setValue(distributionPercent);
     }
 }
