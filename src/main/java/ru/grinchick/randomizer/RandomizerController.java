@@ -1,5 +1,6 @@
 package ru.grinchick.randomizer;
 
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -33,13 +34,13 @@ public class RandomizerController {
     private Slider distribution;
 
     @FXML
-    private ListView<String> list_1;
+    private TextArea list_1;
 
     @FXML
-    private ListView<String> list_2;
+    private TextArea list_2;
 
     @FXML
-    private ListView<String> listAll;
+    private TextArea listAll;
 
     @FXML
     protected void onRandomizeButtonClick() {
@@ -47,6 +48,9 @@ public class RandomizerController {
         List<String> sequence_1;
         List<String> sequence_2;
 
+        listAll.setText("");
+        list_1.setText("");
+        list_2.setText("");
 
         sequence_1 = RandomizerService.getRandomLongSequence(Long.parseLong(min_1.getText()), Long.parseLong(max_1.getText()), Long.parseLong(quantity_1.getText()));
         sequence_2 = RandomizerService.getRandomLongSequence(Long.parseLong(min_2.getText()), Long.parseLong(max_2.getText()), Long.parseLong(quantity_2.getText()));
@@ -54,8 +58,8 @@ public class RandomizerController {
         finalSequence.addAll(sequence_2);
         Collections.shuffle(finalSequence, new Random());
 
-        listAll.setItems((ObservableList<String>) finalSequence);
-        list_1.setItems((ObservableList<String>) sequence_1);
-        list_2.setItems((ObservableList<String>) sequence_2);
+        finalSequence.forEach(el -> listAll.appendText(el + "\r\n"));
+        sequence_1.forEach(el ->  list_1.appendText(el + "\r\n"));
+        sequence_2.forEach(el ->  list_2.appendText(el + "\r\n"));
     }
 }

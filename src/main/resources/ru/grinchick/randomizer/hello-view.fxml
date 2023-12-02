@@ -23,13 +23,13 @@
                             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
                                 <children>
                                     <Label text="Минимум" />
-                                    <TextField fx:id="min_1" />
+                                    <TextField fx:id="min_1" text="0" />
                                 </children>
                             </HBox>
                             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
                                 <children>
-                                    <Label text="Максимум" />
-                                    <TextField fx:id="max_1" />
+                                    <Label text="Максимум*" />
+                                    <TextField fx:id="max_1" text="1" />
                                 </children>
                             </HBox>
                         </children>
@@ -42,7 +42,7 @@
                             <HBox alignment="CENTER" prefHeight="50.0" prefWidth="358.0" spacing="10.0">
                                 <children>
                                     <Label prefHeight="16.0" prefWidth="167.0" text="Количество значений" />
-                                    <TextField fx:id="quantity_1" text="0" />
+                                    <TextField fx:id="quantity_1" text="1" />
                                 </children>
                             </HBox>
                         </children>
@@ -60,13 +60,13 @@
                             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
                                 <children>
                                     <Label text="Минимум" />
-                                    <TextField fx:id="min_2" />
+                                    <TextField fx:id="min_2" text="0" />
                                 </children>
                             </HBox>
                             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="280.0" spacing="10.0">
                                 <children>
-                                    <Label text="Максимум" />
-                                    <TextField fx:id="max_2" />
+                                    <Label text="Максимум*" />
+                                    <TextField fx:id="max_2" text="1" />
                                 </children>
                             </HBox>
                         </children>
@@ -87,6 +87,7 @@
                             <Insets />
                         </opaqueInsets>
                     </HBox>
+               <Label text="* Максимальное значение, не включается в диапазон." />
                     <Label prefHeight="21.0" prefWidth="446.0" text="Распределение значений, между диапазонами:">
                         <font>
                             <Font size="17.0" />
@@ -99,9 +100,9 @@
                     <Insets right="5.0" />
                 </HBox.margin>
             </VBox>
-         <ListView fx:id="listAll" prefHeight="469.0" prefWidth="200.0" />
-         <ListView fx:id="list_1" prefHeight="200.0" prefWidth="200.0" />
-         <ListView fx:id="list_2" prefHeight="469.0" prefWidth="200.0" />
+         <TextArea fx:id="listAll" editable="false" prefHeight="469.0" prefWidth="200.0" />
+         <TextArea fx:id="list_1" editable="false" prefHeight="200.0" prefWidth="200.0" />
+         <TextArea fx:id="list_2" editable="false" prefHeight="469.0" prefWidth="200.0" />
         </children>
     </HBox>
 </VBox>
