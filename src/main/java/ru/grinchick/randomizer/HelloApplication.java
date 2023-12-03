@@ -16,7 +16,9 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1062, 510);
+        Scene scene = new Scene(fxmlLoader.load(), 1262, 540);
+        stage.setMinHeight(540);
+        stage.setMinWidth(1262);
         stage.setTitle("Randomizer!");
         stage.setScene(scene);
 

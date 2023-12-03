@@ -6,10 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import ru.grinchick.randomizer.services.RandomizerService;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
-import java.util.Random;
+import java.util.*;
 
 public class RandomizerController {
     @FXML
@@ -46,6 +43,9 @@ public class RandomizerController {
     private TextArea listAll;
 
     @FXML
+    private CheckBox decimalFlag;
+
+    @FXML
     protected void onRandomizeButtonClick() {
 
         List<String> sequence_1;
@@ -55,9 +55,15 @@ public class RandomizerController {
         list_1.setText("");
         list_2.setText("");
 
-        sequence_1 = RandomizerService.getRandomLongSequence(Long.parseLong(min_1.getText()), Long.parseLong(max_1.getText()), Long.parseLong(quantity_1.getText()));
-        sequence_2 = RandomizerService.getRandomLongSequence(Long.parseLong(min_2.getText()), Long.parseLong(max_2.getText()), Long.parseLong(quantity_2.getText()));
-        List<String> finalSequence = sequence_1;
+        if (decimalFlag.isSelected()){
+            sequence_1 = RandomizerService.getRandomDoubleSequence(Double.parseDouble("0"+min_1.getText()), Double.parseDouble("0"+max_1.getText()), Long.parseLong("0"+quantity_1.getText()));
+            sequence_2 = RandomizerService.getRandomDoubleSequence(Double.parseDouble("0"+min_2.getText()), Double.parseDouble("0"+max_2.getText()), Long.parseLong("0"+quantity_2.getText()));
+        } else {
+            sequence_1 = RandomizerService.getRandomLongSequence(Long.parseLong("0"+min_1.getText()), Long.parseLong("0"+max_1.getText()), Long.parseLong("0"+quantity_1.getText()));
+            sequence_2 = RandomizerService.getRandomLongSequence(Long.parseLong("0"+min_2.getText()), Long.parseLong("0"+max_2.getText()), Long.parseLong("0"+quantity_2.getText()));
+        }
+
+        List<String> finalSequence = new ArrayList<>(sequence_1);
         finalSequence.addAll(sequence_2);
         Collections.shuffle(finalSequence, new Random());
 
@@ -68,14 +74,27 @@ public class RandomizerController {
 
     @FXML
     protected void onDistributionChanged() {
-        quantity_1.setText(String.valueOf((long)((Long.parseLong(quantity_all.getText()) / 100) * distribution.getValue())));
-        quantity_2.setText(String.valueOf(Long.parseLong(quantity_all.getText()) - Long.parseLong(quantity_1.getText())));
+        cropNumberField(quantity_all, 4);
+
+        long buff;
+        buff = (long)((distribution.getValue() / 100) * Long.parseLong("0"+quantity_all.getText()));
+        quantity_1.setText(String.valueOf(buff));
+        quantity_2.setText(String.valueOf(Long.parseLong("0"+quantity_all.getText()) - Long.parseLong("0"+quantity_1.getText())));
     }
 
     @FXML
     protected void onDiapazonQuantityChanged() {
-        quantity_all.setText(String.valueOf(Long.parseLong(quantity_1.getText()) + Long.parseLong(quantity_2.getText())));
-        double distributionPercent = ((double) Long.parseLong(quantity_1.getText()) / Long.parseLong(quantity_all.getText())) * 100;
+        cropNumberField(quantity_1, 4);
+        cropNumberField(quantity_2, 4);
+
+        quantity_all.setText(String.valueOf(Long.parseLong("0"+quantity_1.getText()) + Long.parseLong("0"+quantity_2.getText())));
+        double distributionPercent = ((double) Long.parseLong("0"+quantity_1.getText()) / Long.parseLong("0"+quantity_all.getText())) * 100;
         distribution.setValue(distributionPercent);
+    }
+
+    private void cropNumberField(TextField field, int maxLength) {
+        if (field.getText().length()>maxLength){
+            field.setText(String.valueOf(Long.parseLong("0"+field.getText()) / 10));
+        }
     }
 }
